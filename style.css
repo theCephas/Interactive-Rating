@@ -30,6 +30,10 @@ body{
     background-color: hsl(218, 12%, 26%);
     border-radius: 50%;
     margin-bottom: 20px;
+    width: 50px;
+}
+.img2{
+    width: 150px;
 }
 h4{
     color: hsl(0, 0%, 100%);
