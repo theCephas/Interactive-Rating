@@ -107,9 +107,19 @@ p{
 @media screen and (max-width: 400px){
     .rating{
         width: 300px;
+        font-size: .9rem;
     }
     #thankYou{
         width: 300px;
+    }
+    #thankYou .selected{
+        font-size: 1rem;
+    }
+    #thankYou h4{
+        font-size: 2rem;
+    }
+    #thankYou p{
+        font-size: .9rem;
     }
 }
 
