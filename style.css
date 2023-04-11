@@ -99,6 +99,16 @@ p{
     margin-bottom: 20px;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 400px){
+    .rating{
+        width: 300px;
+    }
+    #thankYou{
+        width: 300px;
+    }
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -106,5 +116,11 @@ p{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+    line-height: 20px;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    color: hsl(0, 0%, 100%); 
+    text-decoration: none;
+}

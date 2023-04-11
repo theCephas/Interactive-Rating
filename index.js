@@ -4,7 +4,7 @@ var rateDigits = document.getElementById('rates');
 
 num.forEach((rate) => {
 
-    rate.addEventListener('click', () => {
+    rate.addEventListener('click', function () {
         rateDigits.innerHTML = rate.innerHTML;
     });
 });
